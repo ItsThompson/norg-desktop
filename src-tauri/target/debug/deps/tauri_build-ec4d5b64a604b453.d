@@ -1,0 +1,10 @@
+/Users/thompsontong/Documents/projects/2023/norg/norg-desktop/src-tauri/target/debug/deps/tauri_build-ec4d5b64a604b453.rmeta: /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/lib.rs /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/allowlist.rs /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/static_vcruntime.rs /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/window-app-manifest.xml
+
+/Users/thompsontong/Documents/projects/2023/norg/norg-desktop/src-tauri/target/debug/deps/libtauri_build-ec4d5b64a604b453.rlib: /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/lib.rs /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/allowlist.rs /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/static_vcruntime.rs /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/window-app-manifest.xml
+
+/Users/thompsontong/Documents/projects/2023/norg/norg-desktop/src-tauri/target/debug/deps/tauri_build-ec4d5b64a604b453.d: /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/lib.rs /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/allowlist.rs /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/static_vcruntime.rs /Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/window-app-manifest.xml
+
+/Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/lib.rs:
+/Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/allowlist.rs:
+/Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/static_vcruntime.rs:
+/Users/thompsontong/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-build-1.4.0/src/window-app-manifest.xml:

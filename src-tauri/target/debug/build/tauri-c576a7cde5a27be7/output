@@ -1,0 +1,12 @@
+cargo:rustc-cfg=dev
+cargo:rustc-cfg=desktop
+cargo:rustc-cfg=shell_open
+cargo:rustc-cfg=shell_any
+cargo:rustc-cfg=shell_scope
+cargo:rustc-cfg=dialog_all
+cargo:rustc-cfg=dialog_open
+cargo:rustc-cfg=dialog_save
+cargo:rustc-cfg=dialog_message
+cargo:rustc-cfg=dialog_ask
+cargo:rustc-cfg=dialog_confirm
+cargo:rustc-cfg=dialog_any
