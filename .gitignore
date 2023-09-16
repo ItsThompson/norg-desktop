@@ -25,3 +25,4 @@ Cargo.lock
 *.sw?
 
 .DS_Store
+.vscode
