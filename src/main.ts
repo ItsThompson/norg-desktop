@@ -1,4 +1,4 @@
-//import { invoke } from "@tauri-apps/api/tauri";
+import { invoke } from "@tauri-apps/api/tauri";
 import { open } from "@tauri-apps/api/dialog";
 
 //let greetInputEl: HTMLInputElement | null;
@@ -17,7 +17,13 @@ async function readFileContents() {
       multiple: false,
       title: "Open Norg .yml File",
     });
-    console.log(selectedPath);
+    await invoke("get_path", {
+      path: selectedPath,
+    })
+      .then((res) => {
+          console.debug(res);
+      })
+      .catch((e) => console.error(e));
   } catch (err) {
     console.error(err);
   }
