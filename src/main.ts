@@ -7,6 +7,13 @@ let testEl: HTMLElement | null;
 
 let path: string | null;
 
+function generateHTML() {
+  const app = document.getElementById("test");
+  const p = document.createElement("p");
+  p.textContent = "Hello, World!";
+  app?.appendChild(p);
+}
+
 async function getPath() {
   //if (greetMsgEl && greetInputEl) {
   //  // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
@@ -42,6 +49,7 @@ async function generateText() {
 
     let out: string = `test\n test`; //TODO figure out how to implement headers not just content
     testEl.textContent = out;
+    generateHTML();
   }
 }
 

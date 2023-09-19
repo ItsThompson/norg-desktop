@@ -55,25 +55,30 @@ fn generate_agenda_day_response(agenda: Vec<AgendaDay>) -> Vec<AgendaDayResponse
                         AgendaType::ScheduleItem(schedule_item) => {
                             let start_time: String = schedule_item.date.start_time_string();
                             let end_time: String = schedule_item.date.end_time_string();
-                            items_vec.push(format!("{}-{} (Scheduled) {}", start_time, end_time, schedule_item.name));
+                            items_vec.push(format!(
+                                "{}-{} (Scheduled) {}",
+                                start_time, end_time, schedule_item.name
+                            ));
                         }
                         AgendaType::TodoItem(todo_item) => {
                             let start_time: String = todo_item.date.start_time_string();
                             let end_time: String = todo_item.date.end_time_string();
-                            items_vec.push(format!("{}-{} (Todo) {}", start_time, end_time, todo_item.title));
+                            items_vec.push(format!(
+                                "{}-{} (Todo) {}",
+                                start_time, end_time, todo_item.title
+                            ));
                         }
                     }
                 }
-
-            },
+            }
             None => {
                 items_vec.push(String::from("None"));
             }
         }
 
-        agenda_day_response_vec.push(AgendaDayResponse{
+        agenda_day_response_vec.push(AgendaDayResponse {
             date: date_string,
-            items: items_vec
+            items: items_vec,
         })
     }
     agenda_day_response_vec

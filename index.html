@@ -2,11 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/src/styles.css" />
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link href="/src/customtheme.css" rel="stylesheet" />
+    <link href="/src/styles.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Norg Desktop</title>
     <script type="module" src="/src/main.ts" defer></script>
-    <style></style>
   </head>
 
   <body>
@@ -14,9 +16,8 @@
       <h1>Welcome to Norg</h1>
       <form class="row" id="file-form">
         <!--<input id="greet-input" placeholder="Enter a name..." /> -->
-        <button type="submit">Open Folder</button>
+        <button type="submit" class="btn btn-info">Open Folder</button>
       </form>
-
       <p id="test"></p>
     </div>
   </body>
