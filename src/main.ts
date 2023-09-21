@@ -58,8 +58,6 @@ async function generateText() {
     let agenda: Array<Object> = await invoke("generate_text", {
       path,
     });
-
-    console.debug(agenda);
     generateHTML(agenda);
   }
 }

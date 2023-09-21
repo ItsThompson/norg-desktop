@@ -26,3 +26,5 @@ Cargo.lock
 
 .DS_Store
 .vscode
+src-tauri/target/*
+src-tauri/target
